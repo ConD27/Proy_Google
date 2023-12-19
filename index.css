@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: small;
 }
 
 body header section{
@@ -12,9 +15,16 @@ body header section{
     margin: 15px;
 }
 body header section div{
-    margin: 5px;
+    margin: 10px;
 }
 
+.menu img{
+    width: 25px;
+}
+
+.gmail img{
+    width: 25px;
+}
 
 /*Parte central*/
 
@@ -53,7 +63,7 @@ main section img{
 }
 .input form input{
     border: none;
-    width: 500px
+    width: 600px;
 }
 .voz img{
     width: 20px;
