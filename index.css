@@ -7,6 +7,11 @@
     font-size: small;
 }
 
+html{
+    min-height: 100%;
+    position: relative;
+}
+
 body header section{
     display: flex;
     flex-direction: row;
@@ -61,9 +66,9 @@ main section img{
     width: 20px;
     height: 20px;
 }
-.input form input{
+input{
     border: none;
-    width: 600px;
+    width: 70%;
 }
 .voz img{
     width: 20px;
@@ -85,14 +90,15 @@ main section img{
 
 /*Pie de página*/
 footer{
-    position: absolute;
-    bottom: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    position: absolute;
+    bottom: 0;
     margin: 15px;
 }
 
 footer div{
     margin: 15px;
 }
+
