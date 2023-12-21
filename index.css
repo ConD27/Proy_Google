@@ -102,3 +102,22 @@ footer div{
     margin: 15px;
 }
 
+@media screen 
+    and (max-device-width: 660px){
+    
+        main section img{
+            height: 100px;
+        }
+
+        footer{
+            flex-direction: column;
+        }
+}
+
+@media screen
+    and (max-device-height: 415px) {
+
+        main section img{
+            height: 100px;
+        }
+}
