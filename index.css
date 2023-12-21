@@ -86,6 +86,20 @@ input{
     margin: 15px;
 } 
 
+button{
+    height: 30px;
+    background-color: #fcfcfc;
+    border: 0;
+    font-size: 14px;
+    border-radius: 7px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+}
 
 
 /*Pie de página*/
@@ -101,6 +115,8 @@ footer{
 footer div{
     margin: 15px;
 }
+
+/*Responsive queries*/
 
 @media screen 
     and (max-device-width: 660px){
